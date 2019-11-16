@@ -36,4 +36,7 @@ end
 def sum_array(seven)
   seven.inject{|sum, n| sum+n}
 end
+
+def add_s(eight)
+  
   
