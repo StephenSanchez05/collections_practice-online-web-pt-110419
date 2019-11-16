@@ -38,5 +38,9 @@ def sum_array(seven)
 end
 
 def add_s(eight)
+  eight.collect do |plural|
+    "#{plural}s"
+  end
+end
   
   
