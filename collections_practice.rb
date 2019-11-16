@@ -21,7 +21,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(five)
-  five.split.each{}
+  five.each{}
 end
 
 def find_a(find)
