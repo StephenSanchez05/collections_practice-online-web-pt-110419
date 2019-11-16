@@ -32,4 +32,6 @@ def find_a(six)
     word[0] == "a"
   end
 end
+
+def sum_array(seven)
   
