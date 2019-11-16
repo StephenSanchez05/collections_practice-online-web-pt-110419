@@ -27,14 +27,8 @@ def kesha_maker(five)
 end
 
 
-def find_a(find)
-  answer = []
-  find.each do |i|
-    letter = i.slice[0]
-    if letter.include?("a")
-      answer << i 
-    end
-    answer
+def find_a(six)
+  six.find_all do |word|
+    word[0] == "a"
   end
-end
   
