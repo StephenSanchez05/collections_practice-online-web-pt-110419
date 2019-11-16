@@ -34,4 +34,6 @@ def find_a(six)
 end
 
 def sum_array(seven)
+  seven.inject{|sum, n| sum+n}
+end
   
