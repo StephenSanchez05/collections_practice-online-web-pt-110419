@@ -38,10 +38,11 @@ def sum_array(seven)
 end
 
 def add_s(eight)
-  eight.each_with_index do |plural, index|
+  eight.each_with_index.collect do |plural, index|
     if index != 1
     plural = "#{plural}s"
   end
+end
 end
   
   
