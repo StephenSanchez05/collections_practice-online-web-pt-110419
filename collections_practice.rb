@@ -39,7 +39,7 @@ end
 
 def add_s(eight)
   eight.each_with_index do |plural, index|
-    plural[0]
+    plural[0] = "#{plural}s"
   end
 end
   
