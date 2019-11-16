@@ -41,6 +41,8 @@ def add_s(eight)
   eight.each_with_index.collect do |plural, index|
     if index != 1
     plural = "#{plural}s"
+  else
+    plural = plural
   end
 end
 end
