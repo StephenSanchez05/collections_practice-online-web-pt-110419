@@ -31,4 +31,5 @@ def find_a(six)
   six.find_all do |word|
     word[0] == "a"
   end
+end
   
