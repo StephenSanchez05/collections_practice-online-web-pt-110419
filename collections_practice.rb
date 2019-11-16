@@ -38,8 +38,8 @@ def sum_array(seven)
 end
 
 def add_s(eight)
-  eight.collect do |plural|
-    "#{plural}s"
+  eight.each_with_index do |plural, index|
+    plural[0]
   end
 end
   
